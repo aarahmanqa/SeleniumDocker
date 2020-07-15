@@ -1,2 +1,2 @@
 #!/bin/sh
-java -jar SeleniumDocker-1.0-SNAPSHOT-fat-tests.jar $1
+mvn -f /app/pom.xml clean install -DsuiteXmlFile=$1

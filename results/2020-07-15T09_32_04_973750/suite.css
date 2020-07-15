@@ -1,0 +1,29 @@
+#test_count,#test_status {
+  border-collapse: collapse;
+  margin-bottom:50px
+}
+
+#test_count td,#test_count th,#test_status td,#test_status th {
+  border: 2px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+#test_status  tr:nth-child(even){background-color: #f2f2f2;}
+
+#test_count,#test_status  tr:hover {background-color: #ddd;}
+
+#test_count,#test_status  th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #00BFA5;
+  color: black;
+}
+
+#test_count td{
+  background-color: #ffffff;
+}
+
+#env_details{
+  color :blue;
+}

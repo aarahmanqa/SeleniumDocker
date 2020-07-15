@@ -1,0 +1,161 @@
+[ {
+  "apiUrl" : "https://stageapp.tekioncloud.xyz/api/settings/u/pdfSetting/fetch/autoPrint",
+  "uiUrl" : "https://stageapp.tekioncloud.xyz/ro/",
+  "postData" : null,
+  "apiMethod" : "GET",
+  "apiStatus" : "200",
+  "type" : "XHR",
+  "requestId" : "56771.91"
+}, {
+  "apiUrl" : "https://stageapp.tekioncloud.xyz/api/settings/u/dealerproperty/PAYTYPE_CHECK_ENABLED",
+  "uiUrl" : "https://stageapp.tekioncloud.xyz/ro/",
+  "postData" : null,
+  "apiMethod" : "GET",
+  "apiStatus" : "200",
+  "type" : "XHR",
+  "requestId" : "56771.90"
+}, {
+  "apiUrl" : "https://stageapp.tekioncloud.xyz/api/notificationServiceV2/u/pusher/metadata",
+  "uiUrl" : "https://stageapp.tekioncloud.xyz/ro/",
+  "postData" : null,
+  "apiMethod" : "GET",
+  "apiStatus" : "200",
+  "type" : "XHR",
+  "requestId" : "56771.102"
+}, {
+  "apiUrl" : "https://stageapp.tekioncloud.xyz/api/settings/u/labels/SERVICE",
+  "uiUrl" : "https://stageapp.tekioncloud.xyz/ro/",
+  "postData" : null,
+  "apiMethod" : "GET",
+  "apiStatus" : "200",
+  "type" : "XHR",
+  "requestId" : "56771.78"
+}, {
+  "apiUrl" : "https://sockjs-us3.pusher.com/pusher/app/0b27fa408859634af94d/628/b17k7e5c/xhr_streaming?protocol=7&client=js&version=4.4.0&t=1594785842243&n=1",
+  "uiUrl" : "https://stageapp.tekioncloud.xyz/ro/",
+  "postData" : null,
+  "apiMethod" : "POST",
+  "apiStatus" : null,
+  "type" : "XHR",
+  "requestId" : "56771.108"
+}, {
+  "apiUrl" : "https://stageapp.tekioncloud.xyz/api/settings/u/user/permissions",
+  "uiUrl" : "https://stageapp.tekioncloud.xyz/ro/",
+  "postData" : null,
+  "apiMethod" : "GET",
+  "apiStatus" : "200",
+  "type" : "XHR",
+  "requestId" : "56771.107"
+}, {
+  "apiUrl" : "https://stageapp.tekioncloud.xyz/api/settings/u/v1.0.0//user/application-pins",
+  "uiUrl" : "https://stageapp.tekioncloud.xyz/ro/",
+  "postData" : null,
+  "apiMethod" : "GET",
+  "apiStatus" : "200",
+  "type" : "XHR",
+  "requestId" : "56771.109"
+}, {
+  "apiUrl" : "https://stageapp.tekioncloud.xyz/api/settings/u/dealerproperty/LOCATION_ENABLED",
+  "uiUrl" : "https://stageapp.tekioncloud.xyz/ro/",
+  "postData" : null,
+  "apiMethod" : "GET",
+  "apiStatus" : "200",
+  "type" : "XHR",
+  "requestId" : "56771.111"
+}, {
+  "apiUrl" : "https://stageapp.tekioncloud.xyz/api/settings/preference/u/v1.0.0/user/application-preferences",
+  "uiUrl" : "https://stageapp.tekioncloud.xyz/ro/",
+  "postData" : null,
+  "apiMethod" : "GET",
+  "apiStatus" : "200",
+  "type" : "XHR",
+  "requestId" : "56771.110"
+}, {
+  "apiUrl" : "https://stageapp.tekioncloud.xyz/api/settings/preference/u/location/user/self",
+  "uiUrl" : "https://stageapp.tekioncloud.xyz/ro/",
+  "postData" : null,
+  "apiMethod" : "GET",
+  "apiStatus" : "200",
+  "type" : "XHR",
+  "requestId" : "56771.114"
+}, {
+  "apiUrl" : "https://stageapp.tekioncloud.xyz/api/settings/preference/u/location/all",
+  "uiUrl" : "https://stageapp.tekioncloud.xyz/ro/",
+  "postData" : null,
+  "apiMethod" : "GET",
+  "apiStatus" : "200",
+  "type" : "XHR",
+  "requestId" : "56771.113"
+}, {
+  "apiUrl" : "https://stageapp.tekioncloud.xyz/api/settings/u/tenantproperty",
+  "uiUrl" : "https://stageapp.tekioncloud.xyz/ro/",
+  "postData" : [ "NEW_EMPLOYEE_ONBOARDING" ],
+  "apiMethod" : "POST",
+  "apiStatus" : "200",
+  "type" : "XHR",
+  "requestId" : "56771.112"
+}, {
+  "apiUrl" : "https://stageapp.tekioncloud.xyz/api/settings/u/dealerproperty/KEY_DROP_OFF_ENABLED",
+  "uiUrl" : "https://stageapp.tekioncloud.xyz/ro/",
+  "postData" : null,
+  "apiMethod" : "GET",
+  "apiStatus" : "200",
+  "type" : "XHR",
+  "requestId" : "56771.89"
+}, {
+  "apiUrl" : "https://stageapp.tekioncloud.xyz/api/settings/u/dealerproperty/IS_OBD_ENABLED",
+  "uiUrl" : "https://stageapp.tekioncloud.xyz/ro/",
+  "postData" : null,
+  "apiMethod" : "GET",
+  "apiStatus" : "200",
+  "type" : "XHR",
+  "requestId" : "56771.88"
+}, {
+  "apiUrl" : "https://stageapp.tekioncloud.xyz/api/settings/u/dealerproperty/CONSUMER_PORTAL_ENABLED",
+  "uiUrl" : "https://stageapp.tekioncloud.xyz/ro/",
+  "postData" : null,
+  "apiMethod" : "GET",
+  "apiStatus" : "200",
+  "type" : "XHR",
+  "requestId" : "56771.87"
+}, {
+  "apiUrl" : "https://stageapp.tekioncloud.xyz/api/settings/u/dealerproperty/CCPA_ENABLED",
+  "uiUrl" : "https://stageapp.tekioncloud.xyz/ro/",
+  "postData" : null,
+  "apiMethod" : "GET",
+  "apiStatus" : "200",
+  "type" : "XHR",
+  "requestId" : "56771.86"
+}, {
+  "apiUrl" : "https://stageapp.tekioncloud.xyz/api/settings/u/admin/roles",
+  "uiUrl" : "https://stageapp.tekioncloud.xyz/ro/",
+  "postData" : null,
+  "apiMethod" : "GET",
+  "apiStatus" : "200",
+  "type" : "XHR",
+  "requestId" : "56771.85"
+}, {
+  "apiUrl" : "https://stageapp.tekioncloud.xyz/api/settings/u/part",
+  "uiUrl" : "https://stageapp.tekioncloud.xyz/ro/",
+  "postData" : null,
+  "apiMethod" : "GET",
+  "apiStatus" : "200",
+  "type" : "XHR",
+  "requestId" : "56771.84"
+}, {
+  "apiUrl" : "https://stageapp.tekioncloud.xyz/api/settings/u/ro",
+  "uiUrl" : "https://stageapp.tekioncloud.xyz/ro/",
+  "postData" : null,
+  "apiMethod" : "GET",
+  "apiStatus" : "200",
+  "type" : "XHR",
+  "requestId" : "56771.83"
+}, {
+  "apiUrl" : "https://stageapp.tekioncloud.xyz/api/settings/u/dealer/dealerMaster",
+  "uiUrl" : "https://stageapp.tekioncloud.xyz/ro/",
+  "postData" : null,
+  "apiMethod" : "GET",
+  "apiStatus" : "200",
+  "type" : "XHR",
+  "requestId" : "56771.82"
+} ]

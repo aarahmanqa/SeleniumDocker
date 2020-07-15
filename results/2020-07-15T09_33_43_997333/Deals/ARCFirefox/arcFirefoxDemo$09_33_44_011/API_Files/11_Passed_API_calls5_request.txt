@@ -1,0 +1,134 @@
+[ {
+  "apiUrl" : "https://stageapp.tekioncloud.xyz/api/notificationServiceV2/u/pusher/auth",
+  "uiUrl" : "https://stageapp.tekioncloud.xyz/ro/home",
+  "postData" : {
+    "postData" : "socket_id=1326.2672297&channel_name=private-arc-e_stage_cloud-t_stg-cacargroup-d_4-u_201-c_USER"
+  },
+  "apiMethod" : "POST",
+  "apiStatus" : "200",
+  "type" : "XHR",
+  "requestId" : "56771.122"
+}, {
+  "apiUrl" : "https://stageapp.tekioncloud.xyz/api/notificationServiceV2/u/pusher/auth",
+  "uiUrl" : "https://stageapp.tekioncloud.xyz/ro/home",
+  "postData" : {
+    "postData" : "socket_id=1326.2672297&channel_name=private-arc-e_stage_cloud-t_stg-cacargroup-d_4-c_COMMUNICATION-dept_COMMUNICATION_PARTS"
+  },
+  "apiMethod" : "POST",
+  "apiStatus" : "200",
+  "type" : "XHR",
+  "requestId" : "56771.126"
+}, {
+  "apiUrl" : "https://stageapp.tekioncloud.xyz/api/notificationServiceV2/u/pusher/auth",
+  "uiUrl" : "https://stageapp.tekioncloud.xyz/ro/home",
+  "postData" : {
+    "postData" : "socket_id=1326.2672297&channel_name=private-arc-e_stage_cloud-t_stg-cacargroup-d_4-c_COMMUNICATION-dept_COMMUNICATION_SERVICE"
+  },
+  "apiMethod" : "POST",
+  "apiStatus" : "200",
+  "type" : "XHR",
+  "requestId" : "56771.125"
+}, {
+  "apiUrl" : "https://stageapp.tekioncloud.xyz/api/settings/preference/u/v2/user/clock/list",
+  "uiUrl" : "https://stageapp.tekioncloud.xyz/ro/home",
+  "postData" : {
+    "sort" : [ {
+      "order" : "ASC",
+      "field" : "clockInTime"
+    } ],
+    "filters" : [ {
+      "field" : "userId",
+      "operator" : "IN",
+      "values" : [ "201" ],
+      "key" : "userId"
+    }, {
+      "field" : "clockInTime",
+      "operator" : "BTW",
+      "values" : [ 1594710000000, 1594796399999 ],
+      "key" : "clockInTime"
+    } ],
+    "searchText" : "",
+    "groupBy" : [ ],
+    "includeFields" : [ ]
+  },
+  "apiMethod" : "POST",
+  "apiStatus" : "200",
+  "type" : "XHR",
+  "requestId" : "56771.124"
+}, {
+  "apiUrl" : "https://stageapp.tekioncloud.xyz/api/settings/u/dealerproperty/EXTERNAL_COMMUNICATION",
+  "uiUrl" : "https://stageapp.tekioncloud.xyz/ro/home",
+  "postData" : null,
+  "apiMethod" : "GET",
+  "apiStatus" : "200",
+  "type" : "XHR",
+  "requestId" : "56771.123"
+}, {
+  "apiUrl" : "https://stageapp.tekioncloud.xyz/api/communication/u/messaging/metadata",
+  "uiUrl" : "https://stageapp.tekioncloud.xyz/ro/home",
+  "postData" : [ "COMMUNICATION_SERVICE", "COMMUNICATION_PARTS", "COMMUNICATION_RETAIL" ],
+  "apiMethod" : "POST",
+  "apiStatus" : "200",
+  "type" : "XHR",
+  "requestId" : "56771.129"
+}, {
+  "apiUrl" : "https://stageapp.tekioncloud.xyz/api/lookup/all",
+  "uiUrl" : "https://stageapp.tekioncloud.xyz/ro/home",
+  "postData" : [ "TENANT_USER_MINIMAL" ],
+  "apiMethod" : "POST",
+  "apiStatus" : "200",
+  "type" : "XHR",
+  "requestId" : "56771.128"
+}, {
+  "apiUrl" : "https://stageapp.tekioncloud.xyz/api/notificationServiceV2/u/pusher/auth",
+  "uiUrl" : "https://stageapp.tekioncloud.xyz/ro/home",
+  "postData" : {
+    "postData" : "socket_id=1326.2672297&channel_name=private-arc-e_stage_cloud-t_stg-cacargroup-d_4-c_COMMUNICATION-dept_COMMUNICATION_RETAIL"
+  },
+  "apiMethod" : "POST",
+  "apiStatus" : "200",
+  "type" : "XHR",
+  "requestId" : "56771.127"
+}, {
+  "apiUrl" : "https://stageapp.tekioncloud.xyz/api/communication/u/messaging/search/conversation",
+  "uiUrl" : "https://stageapp.tekioncloud.xyz/ro/home",
+  "postData" : {
+    "sort" : [ {
+      "order" : "DESC",
+      "field" : "lastMessageTime"
+    } ],
+    "filters" : [ {
+      "field" : "department",
+      "operator" : "IN",
+      "values" : [ "COMMUNICATION_SERVICE" ],
+      "key" : "department"
+    } ],
+    "searchText" : "",
+    "groupBy" : [ ],
+    "includeFields" : [ ],
+    "pageInfo" : {
+      "start" : 0,
+      "rows" : 20
+    }
+  },
+  "apiMethod" : "POST",
+  "apiStatus" : null,
+  "type" : "XHR",
+  "requestId" : "56771.131"
+}, {
+  "apiUrl" : "https://stageapp.tekioncloud.xyz/api/notificationServiceV2/u/user/notification/unseen/count",
+  "uiUrl" : "https://stageapp.tekioncloud.xyz/ro/home",
+  "postData" : null,
+  "apiMethod" : "GET",
+  "apiStatus" : "200",
+  "type" : "XHR",
+  "requestId" : "56771.119"
+}, {
+  "apiUrl" : "https://stageapp.tekioncloud.xyz/api/settings/preference/u/v2/user/clockin/current",
+  "uiUrl" : "https://stageapp.tekioncloud.xyz/ro/home",
+  "postData" : null,
+  "apiMethod" : "GET",
+  "apiStatus" : "200",
+  "type" : "XHR",
+  "requestId" : "56771.118"
+} ]

@@ -1,0 +1,33 @@
+[ {
+  "apiUrl" : "https://rs.fullstory.com/rec/page",
+  "uiUrl" : "https://stageapp.tekioncloud.xyz/ro/login",
+  "postData" : {
+    "OrgId" : "NK5T9",
+    "UserId" : "",
+    "Url" : "https://stageapp.tekioncloud.xyz/ro/login",
+    "Base" : "https://stageapp.tekioncloud.xyz/ro/login",
+    "Width" : 1680,
+    "Height" : 880,
+    "ScreenWidth" : 1680,
+    "ScreenHeight" : 1050,
+    "Referrer" : "https://stageapp.tekioncloud.xyz/ro/login",
+    "Preroll" : 3636,
+    "Doctype" : "<!DOCTYPE html>",
+    "CompiledTimestamp" : 1593460798
+  },
+  "apiMethod" : "POST",
+  "apiStatus" : "202",
+  "type" : "XHR",
+  "requestId" : "56771.70"
+}, {
+  "apiUrl" : "https://stageapp.tekioncloud.xyz/api/dselite/tloginservice/login",
+  "uiUrl" : "https://stageapp.tekioncloud.xyz/ro/login",
+  "postData" : {
+    "username" : "automation-stg-sa@tekion.com",
+    "password" : "Tekion1234"
+  },
+  "apiMethod" : "POST",
+  "apiStatus" : "200",
+  "type" : "XHR",
+  "requestId" : "56771.77"
+} ]

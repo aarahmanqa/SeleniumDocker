@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!-- <suite thread-count="2" parallel="none" name="Deals"> -->
+<suite parallel="none" name="ARC Demo">
+    <parameter name="Environment" value="src/main/resources/application.properties"/>
+
+    <test name="Deals">
+        <classes>
+            <class name="sample.ARCChrome"/>
+            <class name="sample.ARCFirefox"/>
+        </classes>
+    </test>
+</suite> <!-- Suite -->

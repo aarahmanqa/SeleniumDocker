@@ -1,0 +1,37 @@
+table#each_test_report {
+  border-collapse: collapse;
+  margin-bottom:50px;
+  width:100%;
+  table-layout: fixed;
+  word-wrap: break-word;
+}
+table#each_test_report th:nth-child(1){
+     width:4%;
+}
+table#each_test_report th:nth-child(2){
+  width:25%;
+}
+table#each_test_report th:nth-child(6){
+     width:5%;
+}
+table#each_test_report th:nth-child(7){
+     width:5%;
+}
+table#each_test_report th:nth-child(8){
+     width:7%;
+}
+table#each_test_report th, table#each_test_report td{
+  border: 2px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+table#each_test_report th{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #00BFA5;
+  color: black;
+}
+table#each_test_report tr:nth-child(even){background-color: #f2f2f2;}
+table#each_test_report tr:hover {background-color: #ddd;}
+</style>

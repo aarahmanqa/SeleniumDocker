@@ -22,7 +22,7 @@ public class DockerBasic {
 
     @Test(enabled = true)
     public void googleTest1() throws Throwable{
-        System.setProperty("webdriver.chrome.driver","/usr/local/bin/chromedriver");
+        System.setProperty("webdriver.chrome.driver","/app/bin/chromedriver");
         //WebDriver driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), options);
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--headless");
@@ -54,7 +54,7 @@ public class DockerBasic {
     @Test(enabled=true)
     public void googleTest2() throws Throwable{
         //WebDriverManager.firefoxdriver().setup();
-        System.setProperty("webdriver.chrome.driver","/usr/local/bin/chromedriver");
+        System.setProperty("webdriver.chrome.driver","/app/bin/chromedriver");
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--headless");
         options.addArguments("--no-sandbox");
